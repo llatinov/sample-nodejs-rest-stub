@@ -1,0 +1,25 @@
+{
+  "name": "sample-nodejs-rest-stub",
+  "version": "1.0.0",
+  "description": "Sample Node.js REST API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llatinov/sample-nodejs-rest-stub.git"
+  },
+  "keywords": [
+    "Node.js",
+    "REST",
+    "API",
+    "stub"
+  ],
+  "author": "Lyudmil Latinov <llatinov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llatinov/sample-nodejs-rest-stub/issues"
+  },
+  "homepage": "https://github.com/llatinov/sample-nodejs-rest-stub#readme"
+}
