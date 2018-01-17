@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/llatinov/sample-nodejs-rest-stub/issues"
   },
-  "homepage": "https://github.com/llatinov/sample-nodejs-rest-stub#readme"
+  "homepage": "https://github.com/llatinov/sample-nodejs-rest-stub#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
