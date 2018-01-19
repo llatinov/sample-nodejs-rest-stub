@@ -12,5 +12,6 @@ require('./routes/personRoutes')(app);
 require('./routes/versionRoutes')(app, config);
 
 app.listen(3000, () => {
-    console.log("Server is up!");
+    /* eslint-disable */
+    console.log('Server is up!');
 });
