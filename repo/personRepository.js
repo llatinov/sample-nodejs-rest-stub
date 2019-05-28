@@ -28,7 +28,7 @@ class PersonRepository {
 
   save(person) {
     if (this.getById(person.id) !== undefined) {
-      this.persons[person.id] = person;
+      this.persons.set(person.id, person);
       return 'Updated Person with id=' + person.id;
     } else {
       person.id = person.id || this.nextId++;
