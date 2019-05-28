@@ -10,6 +10,7 @@ class PersonRepository {
       [3, new Person(3, 'FN3', 'LN3', 'email3@email.na')],
       [4, new Person(4, 'FN4', 'LN4', 'email4@email.na')],
     ]);
+    this.nextId = 5;
   }
 
   getById(id) {
@@ -30,6 +31,7 @@ class PersonRepository {
       this.persons[person.id] = person;
       return 'Updated Person with id=' + person.id;
     } else {
+      person.id = person.id || this.nextId++;
       this.persons.set(person.id, person);
       return 'Added Person with id=' + person.id;
     }
